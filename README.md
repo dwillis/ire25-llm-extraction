@@ -18,6 +18,6 @@ In the Terminal type the following: pip install requests groq and hit enter.
 
 Then type: python get_stories.py
 
-You should see a file called lens_nola.json appear. Let's look at it. It contains some details of the 10 latest stories from The Lens. We're going to have an LLM extract entities - people, places and organizations - from those stories.
+You should see a file called lens_nola.json appear. Let's look at it. It contains some details of the 10 latest stories from [The Lens](https://thelensnola.org/). We're going to have an LLM extract entities - people, places and organizations - from those stories.
 
 Back in the Terminal, type: python entity_extraction.py and watch the output.
