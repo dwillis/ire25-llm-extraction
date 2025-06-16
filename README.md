@@ -1,8 +1,10 @@
-# llm-archives
+# LLM Data Extraction
+## IRE 2025
+### Derek Willis, University of Maryland
 
 ### Instructions
 
-Click the "Use this template" button for this repository and choose "Create a new repository". You can give it the same name (llm-archives).
+Click the "Use this template" button for this repository and choose "Create a new repository". You can give it the same name or something different.
 
 Once it's ready, go to [Groq](https://console.groq.com/keys) and follow the directions to get an API key. You'll need to login (or create an account if you don't have one).
 
