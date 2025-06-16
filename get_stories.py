@@ -29,10 +29,10 @@ def fetch_json_data(base_url, num_pages=1):
     return all_data
 
 # URL to the JSON data
-base_url = 'https://cnsmaryland.org/wp-json/wp/v2/posts'
+base_url = 'https://thelensnola.org/wp-json/wp/v2/posts'
 # Fetch JSON data from the first 10 stories
 data = fetch_json_data(base_url, num_pages=1)
 
 # Optionally, save the data to a file or handle it as needed
-with open('cns_maryland_posts.json', 'w') as file:
+with open('lens_nola.json', 'w') as file:
     json.dump(data, file, indent=4)

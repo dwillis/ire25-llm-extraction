@@ -13,7 +13,7 @@ client = Groq(
 )
 
 # Path to your JSON file containing stories
-file_path = 'cns_maryland_posts.json'
+file_path = 'lens_nola.json'
 stories = load_stories(file_path)
 
 # Define a structured prompt that explicitly requests the JSON format
