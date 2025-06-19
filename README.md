@@ -20,7 +20,7 @@ From there, click the green "Code" button and create a new Codespace in the Code
 
 ### Entity Extraction
 
-In the Terminal type the following: pip install requests groq and hit enter.
+In the Terminal type the following: `pip install requests groq` and hit enter.
 
 Then type: `python get_stories.py`
 
