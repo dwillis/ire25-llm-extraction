@@ -4,7 +4,7 @@
 
 ### House Job
 
-Sign into your Google account and head to [AI Studio](https://aistudio.google.com/prompts/new_chat). Make sure you turn down the temperature to 0 and are using the Gemini 2.5 Pro Preview model, and check the "Structured Output" button. Then copy the [text with a single House job ad](https://raw.githubusercontent.com/dwillis/ire25-llm-extraction/refs/heads/main/house_job.txt) and paste it into the chat interface, and add a prompt designed to extract the following elements into a JSON file: the unique identifier, the name of the member, the member's state, the member's party, the title of the job and the salary. Evaluate the results. How did it do?
+Sign into your Google account and head to [AI Studio](https://aistudio.google.com/prompts/new_chat). Make sure you turn down the temperature to 0 and are using the Gemini 2.5 Pro model, and check the "Structured Output" button. Then copy the [text with a single House job ad](https://raw.githubusercontent.com/dwillis/ire25-llm-extraction/refs/heads/main/house_job.txt) and paste it into the chat interface, and add a prompt designed to extract the following elements into a JSON file: the unique identifier, the name of the member, the member's state, the member's party, the title of the job and the salary. Evaluate the results. How did it do?
 
 ### Codespaces and Groq Setup
 
